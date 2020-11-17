@@ -36,3 +36,10 @@ img{
 img:hover{
   cursor: pointer;
 }
+
+.display > h1 {
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  background-color: rgb(253, 246, 235);
+}

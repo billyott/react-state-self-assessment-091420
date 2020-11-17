@@ -17,7 +17,7 @@ class Drake extends React.Component {
 
     render() {
         return (
-            <div>
+            <div class="display">
                 {this.state.cardView ? (<h1>{yes["yes-statement"]}</h1>) : (<h1>{no["no-statement"]}</h1>)}
                 {this.state.cardView ? (<img onClick={this.handleClick} alt="yes-drake" src={yes["yes-image"]}/>) : (<img onClick={this.handleClick} alt="no-drake" src={no["no-image"]}/>)}
             </div>   
